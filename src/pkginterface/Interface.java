@@ -29,19 +29,20 @@ public class Interface extends JFrame {
 
     private void inicializarComponentes() {
         setTitle("Login no Sistema");
-        setBounds(0, 0, 250, 200);
+        setBounds(0, 0, 450, 250);
+        setLayout(null);
         tfLogin = new JTextField(5);
         pfSenha = new JPasswordField(5);
         lbSenha = new JLabel("Senha:");
         lbLogin = new JLabel("Login:");
         btLogar = new JButton("Logar");
         btCancelar = new JButton("Cancelar");
-        tfLogin.setBounds(100, 30, 120, 25);
-        lbLogin.setBounds(30, 30, 80, 25);
-        lbSenha.setBounds(30, 75, 80, 25);
-        pfSenha.setBounds(100, 75, 120, 25);
-        btLogar.setBounds(20, 120, 100, 25);
-        btCancelar.setBounds(125, 120, 100, 25);
+        tfLogin.setBounds(180, 30, 120, 25);
+        lbLogin.setBounds(120, 30, 80, 25);
+        lbSenha.setBounds(120, 75, 80, 25);
+        pfSenha.setBounds(180, 75, 120, 25);
+        btLogar.setBounds(120, 120, 100, 25);
+        btCancelar.setBounds(225, 120, 100, 25);
         add(tfLogin);
         add(lbSenha);
         add(lbLogin);
